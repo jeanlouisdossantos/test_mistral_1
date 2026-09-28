@@ -1,11 +1,13 @@
 <script setup lang="ts">
 import NewsList from './components/NewsList.vue'
+import ThemeToggle from './components/ThemeToggle.vue'
 
 const year = new Date().getFullYear()
 </script>
 
 <template>
   <div class="page">
+    <ThemeToggle />
     <header class="hero">
       <p class="badge">
         <span class="pulse" aria-hidden="true"></span>
